@@ -1,0 +1,68 @@
+Tên dự án: lavishstay
+Loại dự án:  academic (đồ án tốt nghiệp)
+Mô tả ngắn: Hệ thống quản lý & đặt phòng khách sạn trực tuyến
+Vai trò của bạn: Lead, người phụ trách chính backend
+Tech stack: laravel, tailwind, react, mysql
+Tính năng chính: quản lý & đặt phòng khách sạn trực tuyến
+Điểm kỹ thuật đáng nói: database chuẩn hệ thống lớn, giao diên UI, UX hiện đại, hệ thống admin quản lý thông minh, luồng nghiệp vụ đặt phòng chuyên nghiệp
+Trạng thái: demo local
+Link demo: local
+Link GitHub nếu public: https://github.com/dancru299/LAVISHSTAY
+Nếu private, có cần ghi confidential không:
+
+
+Tên dự án: GradeAI - Trợ lý chấm bài tự luận viết tay bằng AI
+Loại dự án:  academic
+Mô tả ngắn: GradeAI là nền tảng web giúp giáo viên THCS/THPT tại Việt Nam chấm bài tự luận viết tay tự động: ảnh chụp bài làm được OCR thành text, AI chấm theo rubric của giáo viên, rồi hiển thị trên giao diện duyệt nhanh để giáo viên xác nhận hoặc chỉnh sửa điểm trước khi vào sổ.
+Vai trò của bạn: Frontend / UI-UX / Mobile scan (Next.js + Tailwind, đa ngôn ngữ Việt-Anh, dashboard, preload/skeleton, mobile scan v1 → v3).
+Tech stack: (Frontend	Next.js 14 (App Router) · React 18 · TypeScript strict · Tailwind CSS v4 · shadcn/ui (base-nova trên @base-ui/react) · Framer Motion
+Backend / API	Next.js Route Handlers · Server Actions · Background workers (/api/worker/ocr, /api/worker/grading)
+Database	Supabase Postgres · Row-Level Security · Realtime · Auth
+Storage	Cloudflare R2 (S3-compatible) — presigned upload URL
+AI / LLM	AI Gateway → Claude Haiku 4.5 (qua OpenRouter hoặc Anthropic trực tiếp) · stub provider cho dev/CI
+OCR	Google Cloud Vision API (handwriting)
+Email	Resend (transactional)
+Anti-bot	Cloudflare Turnstile
+Validate env	@t3-oss/env-nextjs + Zod (fail-fast)
+Test	Vitest (unit, 160+ tests) · Playwright (e2e) · pgTAP (SQL)
+Deploy	VPS qua GitHub Actions self-hosted runner phoenix-runner (PM2)
+Package manager	pnpm (bắt buộc) · Node 20 LTS)
+Tính năng chính: (📤 Upload ảnh hàng loạt lên Cloudflare R2 qua presigned URL (giáo viên chụp bằng điện thoại).
+🔍 OCR chữ viết tay tiếng Việt dùng Google Cloud Vision, có chấm điểm chất lượng từng trang.
+✂️ Engine cắt phách & gom bài tự động cho bài thi ẩn danh (Pipeline A).
+🤖 AI Gateway pluggable — đổi giữa OpenRouter / Anthropic / stub không cần sửa caller; mặc định Claude Haiku 4.5.
+📋 Rubric builder — giáo viên tự định nghĩa tiêu chí + thang điểm.
+✅ Giao diện duyệt nhanh — Accept-as-is hoặc chỉnh sửa từng tiêu chí, Realtime push qua Supabase.
+📊 Dashboard 3 vai trò — teacher, school_admin, super_admin (mỗi vai trò có view riêng + RLS chặt).
+📈 Flywheel append-only — lưu mọi cặp (AI score, teacher score) để phục vụ fine-tune sau này.
+🔐 Bảo mật: Supabase Auth + Row-Level Security theo school_id, Turnstile chống bot, RBAC theo role)
+Điểm kỹ thuật đáng nói: tuỳ bạn nhận xét
+Trạng thái: đã deploy / đang phát triển / đã demo
+Link demo: https://gradeai.site/
+Link GitHub nếu public:
+Nếu private, có cần ghi confidential không:
+
+Tên dự án: FaceConst
+Loại dự án:  company
+Mô tả ngắn: Mạng xã hội dành riêng cho dân thiết kế, kiến trúc sư, người có nhu cầu xây nhà, là cầu nối giữa các nhà thầu và khách hàng
+Vai trò của bạn: build base ban đầu, lên techstack, thiết kế database, thiết kế giao diện trang chủ, triển khai lên product
+Tech stack: laravel + taiwind + liveware , alpine.js,..
+Tính năng chính: Giống hệt facebook
+Điểm kỹ thuật đáng nói: tuỳ bạn nhận xét
+Trạng thái: đã deploy / demo local / đang phát triển / đã bàn giao
+Link demo: https://faceconst.com/
+Link GitHub nếu public: 
+Nếu private, có cần ghi confidential không:
+
+
+Tên dự án: lms 8bit
+Loại dự án:  company
+Mô tả ngắn: dự án quản lý hệ thống bài giảng, lịch dạy, giáo viên, học sinh, sales, có landingpage,..
+Vai trò của bạn: lead, xử lý các nghiệp vụ liên quan đến phụ huynh, giáo viên, học sinh cho role sales chăm sóc
+Tech stack: laravel + tailwind
+Tính năng chính: quản lý hệ thống bài giảng, lịch dạy
+Điểm kỹ thuật đáng nói: tuỳ bạn đánh giá
+Trạng thái: đã deploy / demo local / đang phát triển / đã bàn giao
+Link demo: https://lms.8bit.edu.vn/
+Link GitHub nếu public:
+Nếu private, có cần ghi confidential không:
