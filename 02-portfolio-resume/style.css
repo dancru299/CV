@@ -36,7 +36,7 @@ h1{margin:0;font-size:31px;line-height:1.05;letter-spacing:0}
 .project-grid{display:grid;grid-template-columns:1fr;gap:6px}
 .project{border:1px solid #e5e7eb;border-radius:8px;padding:8px 10px}
 .stack{margin:4px 0 5px;color:#2563eb;font-size:10.8px;font-weight:700}
-.project p:last-child{margin:0;color:#4b5563;font-size:11.6px;line-height:1.4}
+.project p:not(.stack){margin:4px 0 0;color:#4b5563;font-size:11.6px;line-height:1.4}
 .project a,
 .detail-list a{color:#2563eb;text-decoration:none}
 .project a:hover,
