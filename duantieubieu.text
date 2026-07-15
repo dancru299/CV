@@ -55,6 +55,18 @@ Link GitHub nếu public:
 Nếu private, có cần ghi confidential không:
 
 
+Tên dự án: AI Test-Planning Agent cho hệ thống legacy (VinUni AI Residency)
+Loại dự án:  academic (dự án thực chiến trong chương trình VinUni/Vingroup)
+Mô tả ngắn: AI Agent phân tích Git Diff và truy vấn Knowledge Base (Neo4j + ChromaDB) để đánh giá vùng ảnh hưởng (blast radius), tính điểm rủi ro nghiệp vụ và tự động lập kế hoạch kiểm thử cho một hệ thống POS hiện đại hoá từ mã nguồn cũ.
+Vai trò của bạn: AI Engineer - thiết kế AI Testing Agent, lập kế hoạch kiểm thử từ Git Diff và Knowledge Base
+Tech stack: Python, FastAPI, Neo4j, ChromaDB, LLM test-planning, ThreadPoolExecutor
+Tính năng chính: Bộ lọc mục tiêu kiểm thử theo mức độ rủi ro (fine-grained target selection), cơ chế Circuit Breaker tự phục hồi cho Knowledge Base client, bộ tự chữa lỗi JSON do LLM trả về, chạy song song các lời gọi LLM để giảm độ trễ.
+Điểm kỹ thuật đáng nói: Đạt độ tin cậy và khả năng chịu lỗi cao (resilient), đo đạc trên 30+ ca kiểm thử chuẩn (golden cases) qua 6 hệ thống POS mẫu, sẵn sàng tích hợp CI/CD.
+Trạng thái: đã demo (hoàn thành trong chương trình VinUni)
+Link demo: nội bộ, không public
+Nếu private, có cần ghi confidential không: có - dự án nội bộ chương trình VinUni/Vingroup, không nêu tên team/đồng đội hay chi tiết nghiệp vụ khách hàng cụ thể trên CV, chỉ mô tả vai trò và kỹ thuật cá nhân.
+
+
 Tên dự án: lms 8bit
 Loại dự án:  company
 Mô tả ngắn: dự án quản lý hệ thống bài giảng, lịch dạy, giáo viên, học sinh, sales, có landingpage,..

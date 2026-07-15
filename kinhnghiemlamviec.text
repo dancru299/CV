@@ -34,6 +34,6 @@ Thời gian:Tháng 4/2026 - Tháng 7/2026 (12 tuần)
 Full-time / Part-time / Intern / Freelance: full time
 Bạn làm gì chính: học và thực tập tại VSF
 Tech stack: python, AI infra,..
-Dự án/sản phẩm tham gia: OCR bài viết tay, chấm điểm tự động
-Kết quả hoặc đóng góp cụ thể: Frontend / UI-UX / Mobile scan (Next.js + Tailwind, đa ngôn ngữ Việt-Anh, dashboard, preload/skeleton, mobile scan v1 → v3).
+Dự án/sản phẩm tham gia: OCR bài viết tay, chấm điểm tự động (GradeAI); AI Test-Planning Agent cho hệ thống legacy
+Kết quả hoặc đóng góp cụ thể: Frontend / UI-UX / Mobile scan (Next.js + Tailwind, đa ngôn ngữ Việt-Anh, dashboard, preload/skeleton, mobile scan v1 → v3). Đồng thời thiết kế AI Testing Agent phân tích Git Diff và Knowledge Base (Neo4j/ChromaDB) để lập kế hoạch kiểm thử tự động, có cơ chế circuit breaker tự phục hồi và tự chữa lỗi JSON từ LLM.
 Có được phép public tên công ty/dự án không: hiện tại nó không được public
